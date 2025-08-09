@@ -3,7 +3,7 @@
 theme: seriph
 # random image from a curated Unsplash collection by Anthony
 # like them? see https://unsplash.com/collections/94734566/slidev
-background: ./images/backgroundaframe.png
+background: /images/backgroundaframe.png
 # some information about your slides (markdown enabled)
 title: Construindo experiências de realidade virtual na Web com A-frame
 info: |
@@ -122,7 +122,7 @@ transition: fade-out
 # Na prática
 
 <iframe 
-  src="./exemplo-aframe.html" 
+  src="/exemplo-aframe.html" 
   width="100%" 
   height="400" 
   style="border: none; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"
@@ -149,7 +149,7 @@ h1 {
 
 ---
 layout: image-right
-image: ./images/inspector.png
+image: /images/inspector.png
 transition: fade-out
 ---
 
@@ -179,7 +179,7 @@ transition: fade-out
 
 # Na prática
 <br>
-<a href="./exemplo-aframe.html" target="_blank" class="text-blue-500 hover:underline">Abrir exemplo em nova janela</a>
+<a href="/exemplo-aframe.html" target="_blank" class="text-blue-500 hover:underline">Abrir exemplo em nova janela</a>
 <br><br>
 Experimente pressionar <kbd>CTRL</kbd>+<kbd>ALT</kbd>+<kbd>I</kbd> para abrir o Inspector
 
